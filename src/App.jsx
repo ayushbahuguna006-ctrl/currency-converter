@@ -41,9 +41,9 @@ function App() {
             </div>
 
          <div className='bg-white h-12 w-full flex justify-around items-center font-bold'>
-                  <div id='animatetwo'>Home</div>
-                  <div id='animatethree'>About</div>
-                  <div id='animatefour' className='text-red-500'>SignIn</div>
+                  <div id='animatetwo' className='font-black'>Home</div>
+                  <div id='animatethree' className='font-black'>About</div>
+                  <div id='animatefour' className='text-red-500 font-extrabold text-xl bg-black rounded-sm p-1 ring-2 ring-offset-red-200' >SignIn</div>
 
          </div>
 
