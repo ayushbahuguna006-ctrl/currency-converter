@@ -43,7 +43,7 @@ function App() {
          <div className='bg-white h-12 w-full flex justify-around items-center font-bold'>
                   <div id='animatetwo' className='font-black'>Home</div>
                   <div id='animatethree' className='font-black'>About</div>
-                  <div id='animatefour' className='text-red-500 font-extrabold text-xl bg-black rounded-sm p-1 ring-2 ring-offset-red-200' >SignIn</div>
+                  <div id='animatefour' className='text-red-500 font-mono text-xl bg-black rounded-sm p-1 ring-1 ring-offset-red-200' >SignIn</div>
 
          </div>
 
