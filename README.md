@@ -20,29 +20,30 @@ HTML5 – Structure of the web pages
 
 CSS3 / Tailwind CSS – Styling and responsive design
 
-JavaScript / React  – Currency conversion logic
+JavaScript / React – Currency conversion logic
 
-API  – Real-time exchange rates ("Exchange rate API'S)
+API – Real-time exchange rates ( Exchange Rate APIs)
 
 🚀 How to Use
-
-Clone the repository:
-
+1. Clone the repository
 git clone https://github.com/yourusername/currency-converter.git
 
+2. Open in browser
 
 Open index.html in your browser
-or run the project with your React setup:
+OR
 
+3. Run React setup
 npm install
 npm start
 
+4. Convert Currencies
 
-Enter the amount, select the source currency and target currency
+Enter the amount
+
+Select the source currency and target currency
 
 Click Convert to get the converted amount
-
-
 
 💡 Example Usage
 Amount	From	To	Result
