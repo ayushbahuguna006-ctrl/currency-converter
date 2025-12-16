@@ -1,0 +1,25 @@
+#heading{
+    opacity: 0;
+animation-name: fadein;
+animation-timing-function: ease-in;
+animation-duration: 400ms;
+animation-delay: 300ms;
+animation-fill-mode: forwards;
+
+
+}
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity:1;}
+}
+@keyframes fadedown{
+    0%{transform: translateY(-400px);opacity: 0;}
+    100%{transform:translateY(0px);opacity: 1;}
+}
+#animate{
+    animation-name: fadedown;
+    animation-timing-function: ease-in;
+    animation-duration: 400ms;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}
