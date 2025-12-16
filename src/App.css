@@ -23,3 +23,24 @@ animation-fill-mode: forwards;
     animation-delay: 300ms;
     animation-fill-mode: both;
 }
+#animatetwo{
+ animation-name: fadedown;
+    animation-timing-function: ease-in;
+    animation-duration: 800ms;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}
+#animatethree{
+ animation-name: fadedown;
+    animation-timing-function: ease-in;
+    animation-duration: 800ms;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}
+#animatefour{
+ animation-name: fadedown;
+    animation-timing-function: ease-in;
+    animation-duration: 800ms;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}

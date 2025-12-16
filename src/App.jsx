@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-      <div className='flex min-h-screen   justify-center items-center '>
+      <div className=' min-h-screen    '>
         
 
-            <div className='absolute top-0 p-8 bg-black w-full flex justify-end'>
+            <div className=' p-8 bg-black w-full flex justify-end'>
                 <div id='heading' className='flex text-white  text-xl md:font-light font-light md:text-2xl ' ><div>Currency</div><div>-Converter💱</div></div>
                              <video
     autoPlay
@@ -40,7 +40,12 @@ function App() {
 
             </div>
 
-         
+         <div className='bg-white h-12 w-full flex justify-around items-center font-bold'>
+                  <div id='animatetwo'>Home</div>
+                  <div id='animatethree'>About</div>
+                  <div id='animatefour' className='text-red-500'>SignIn</div>
+
+         </div>
 
 
 
@@ -53,7 +58,7 @@ function App() {
 
 
 
-
+        <div className='flex justify-center min-h-[400px] pt-10'>
             <div className=' bg-gray-50 min-h-100   rounded-xl w-full sm:w-full md:w-[70%] lg:w-[30%] ring-1 ring-offset-5 ring-blue-400 ring-offset-black'>
                 <div className='text-center p-6 '><h1 className='text-stone-700 font-semibold text-2xl '>CURRENCY CONVERTER</h1></div>
                 <div className='flex justify-center'> <hr className='w-[90%]'/></div><br />
@@ -66,7 +71,7 @@ function App() {
 
             </div>
 
-
+       </div>
 
 
 
