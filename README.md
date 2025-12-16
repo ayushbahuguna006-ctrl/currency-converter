@@ -1,16 +1,50 @@
-# React + Vite
+Currency Converter 💱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Currency Converter web application that allows users to convert amounts between different currencies in real-time.
 
-Currently, two official plugins are available:
+📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Convert currencies instantly
 
-## React Compiler
+Support for multiple international currencies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive and mobile-friendly design
 
-## Expanding the ESLint configuration
+User-friendly interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Input validation for accurate conversions
+
+🛠️ Technologies Used
+
+HTML5 – Structure of the web pages
+
+CSS3 / Tailwind CSS – Styling and responsive design
+
+JavaScript / React  – Currency conversion logic
+
+API  – Real-time exchange rates ("Exchange rate API'S)
+
+🚀 How to Use
+
+Clone the repository:
+
+git clone https://github.com/yourusername/currency-converter.git
+
+
+Open index.html in your browser
+or run the project with your React setup:
+
+npm install
+npm start
+
+
+Enter the amount, select the source currency and target currency
+
+Click Convert to get the converted amount
+
+
+
+💡 Example Usage
+Amount	From	To	Result
+100	USD	INR	8,200.00
+50	EUR	USD	54.75
