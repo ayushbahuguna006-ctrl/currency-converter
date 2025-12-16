@@ -1,0 +1,35 @@
+import { useState } from 'react'
+
+import './App.css'
+
+function App() {
+ 
+
+  return (
+    <>
+      <div className='flex min-h-screen bg-black  justify-center items-center '>
+            <div className=' bg-gray-100 min-h-100  rounded-xl w-full sm:w-full md:w-1/2 lg:w-[30%] '>
+                <div className='text-center p-6'><h1 className='text-blue-400 font-bold text-2xl '>CURRENCY CONVERTER</h1></div>
+                <div className='flex justify-center'> <hr className='w-[90%]'/></div>
+                <div className='p-6 text-center  '>AMOUNT:  <label><input type='number' min={1} className='border-2 border-black rounded-sm'/></label></div>
+                <div className='flex justify-around'>
+                              <div ><label className='flex'>FROM: <div className='border border-black rounded-sm'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div ><label className='flex'>TO:   <div className='border border-black rounded-sm'><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                </div>
+                <div className='text-center p-15'><button className='bg-blue-200 rounded-sm text-xl p-4 font-semibold px-6 '>CONVERT</button></div>
+
+            </div>
+
+
+
+
+
+
+
+
+      </div>
+    </>
+  )
+}
+
+export default App
