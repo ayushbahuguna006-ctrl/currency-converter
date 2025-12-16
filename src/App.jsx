@@ -40,6 +40,7 @@ function App() {
 
             </div>
 
+         
 
 
 
@@ -53,8 +54,7 @@ function App() {
 
 
 
-
-            <div className=' bg-white min-h-100   rounded-xl w-full sm:w-full md:w-full lg:w-[30%] ring-1 ring-offset-5 ring-blue-400 ring-offset-black'>
+            <div className=' bg-gray-50 min-h-100   rounded-xl w-full sm:w-full md:w-[70%] lg:w-[30%] ring-1 ring-offset-5 ring-blue-400 ring-offset-black'>
                 <div className='text-center p-6 '><h1 className='text-stone-700 font-semibold text-2xl '>CURRENCY CONVERTER</h1></div>
                 <div className='flex justify-center'> <hr className='w-[90%]'/></div><br />
                 <div className='pt-6 pb-6 pr-7 text-center bg-green-50 font-semibold border border-green-50 rounded-2xl 'id='animate'>AMOUNT:  <label className='bg-white'><input type='number' placeholder='  Enter Amount Here ' min={1} className='border-3 font-medium border-black rounded-sm'/></label></div>
