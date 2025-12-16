@@ -16,7 +16,7 @@ function App() {
                               <div ><label className='flex'>FROM: <div className='border border-black rounded-sm'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
                               <div ><label className='flex'>TO:   <div className='border border-black rounded-sm'><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
                 </div>
-                <div className='text-center p-15'><button className='bg-blue-200 rounded-sm text-xl p-4 font-semibold px-6 hover:ring hover:ring-offset-2 hover:ring-red-200 '>CONVERT</button></div>
+                <div className='text-center p-15'><button className='bg-black text-white rounded-2xl text-base p-4 font-semibold  px-6 hover:ring hover:ring-offset-2 hover:ring-red-200 hover:text-white hover:from-blue-400 hover:to-purple-500 hover:bg-gradient-to-r transition-all duration-300 transform hover:scale-105 shadow-lg ring ring-offset-3 ring-purple-500 hover:cursor-pointer '>CONVERT</button></div>
 
             </div>
 
