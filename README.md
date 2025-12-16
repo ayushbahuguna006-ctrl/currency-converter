@@ -45,7 +45,3 @@ Select the source currency and target currency
 
 Click Convert to get the converted amount
 
-💡 Example Usage
-Amount	From	To	Result
-100	USD	INR	8,200.00
-50	EUR	USD	54.75
