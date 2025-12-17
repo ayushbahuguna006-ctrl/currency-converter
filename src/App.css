@@ -1,40 +1,218 @@
-#heading{
+/* #heading{
     opacity: 0;
 animation-name: fadein;
 animation-timing-function: ease-in;
 animation-duration: 400ms;
-animation-delay: 1s;
+animation-delay: 1.5s;
 animation-fill-mode: forwards;
 
 
-}
+} */
 @keyframes fadein{
     0%{opacity: 0;}
     100%{opacity:1;}
 }
 @keyframes fadedown{
-    0%{transform: translateY(-10px);opacity: 0;}
+    0%{transform: translateY(-7px);opacity: 0;}
     100%{transform:translateY(0px);opacity: 1;}
 }
 
 #animatetwo{
- animation-name: fadedown;
+ animation-name: fadein;
     animation-timing-function: ease-in;
     animation-duration: 800ms;
-    animation-delay: 300ms;
+    animation-delay: 400ms;
     animation-fill-mode: both;
 }
 #animatethree{
- animation-name: fadedown;
+    animation-name: fadein;
     animation-timing-function: ease-in;
     animation-duration: 800ms;
     animation-delay: 600ms;
     animation-fill-mode: both;
 }
 #animatefour{
- animation-name: fadedown;
+ animation-name: fadein;
     animation-timing-function: ease-in;
-    animation-duration: 800ms;
+    animation-duration: 400ms;
+    animation-delay: 1400ms;
+    animation-fill-mode: both;
+}
+#animate1{
+ animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 100ms;
+    animation-fill-mode: both;
+}
+#animate2{
+     animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 200ms;
+    animation-fill-mode: both;
+}
+#animate3{
+     animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+}
+#animate4{
+     animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 400ms;
+    animation-fill-mode: both;
+}
+#animate5{
+     animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 500ms;
+    animation-fill-mode: both;
+}
+#animate6{
+     animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 600ms;
+    animation-fill-mode: both;
+}
+#animate7{
+     animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 700ms;
+    animation-fill-mode: both;
+}
+#animate8{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 800ms;
+    animation-fill-mode: both;
+}
+#animate9{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
     animation-delay: 900ms;
     animation-fill-mode: both;
+}
+#animate10{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+#animate11{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.1s;
+    animation-fill-mode: both;
+}
+#animate12{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.2s;
+    animation-fill-mode: both;
+}
+#animate13{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.3s;
+    animation-fill-mode: both;
+}
+#animate14{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.4s;
+    animation-fill-mode: both;
+}
+#animate15{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+}
+#animate16{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.6s;
+    animation-fill-mode: both;
+}
+#animate17{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.7s;
+    animation-fill-mode: both;
+}
+#animate18{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.8s;
+    animation-fill-mode: both;
+}
+#animate19{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 1.9s;
+    animation-fill-mode: both;
+}
+#animate20{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+#animate21{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 2.1s;
+    animation-fill-mode: both;
+}
+#animate22{
+      animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-delay: 2.3s;
+    animation-fill-mode: both;
+}
+#ani1{
+animation-name: opac;
+animation-timing-function: ease-in;
+animation-delay: 2.6s;
+animation-duration: 1000ms;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+@keyframes opac{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+#ani2{
+    color: red;
+    animation-name: text;
+    animation-timing-function: ease-in;
+    animation-duration: 600ms;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+}
+@keyframes text{
+    0%{color: red;}
+    100%{color:white}
 }
