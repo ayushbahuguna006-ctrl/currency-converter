@@ -11,7 +11,7 @@ function App() {
         
 
             <div className=' p-3 bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] w-full flex justify-between border-black border-y-1'>
-                <div id='heading' className='flex text-blue-100  text-sm md:font-light font-extralight md:text-2xl sm:pr-4' ><div>Currency</div><div>-Converter💱</div></div>
+                <div id='heading' className='flex text-blue-100  text-xl md:font-light font-extralight md:text-2xl sm:pr-4' ><div>Currency</div><div>-Converter💱</div></div>
                              <video
     autoPlay
     loop
@@ -28,9 +28,9 @@ function App() {
                                  className=" top-5 left-6 z-50 cursor-pointer space-y-1 pl-14 pt-1 md:pl-100 "
                                   
                                                                                          >
-                                     <span className="block w-5 h-0.5 bg-white"></span>
-                                       <span className="block w-5 h-0.5 bg-white"></span>
-                                        <span className="block w-5 h-0.5 bg-white"></span>
+                                     <span className="block w-5 h-1 bg-white"></span>
+                                       <span className="block w-5 h-1 bg-white"></span>
+                                        <span className="block w-5 h-1 bg-white"></span>
                                    </div>
 
                           </div>
@@ -41,9 +41,9 @@ function App() {
             </div>
 
          <div className='bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] h-8 border-white border-y-1  w-full flex justify-between md:flex md:justify-around items-center md:font-bold py-6 px-4'>
-                  <div id='animatetwo' className='font-light  bg-black px-2  rounded-sm border text-sm border-yellow-100 md:pl-3 text-white '><a href="">Home</a></div>
-                 <div className='pr-20 pt-0.95 '> <div id='animatethree' className=' bg-black text-white border md:mr-50 border-blue-500 text-sm px-2 py-0.5 rounded-sm'><a href="">About</a></div></div>
-                  <div id='animatefour' className='text-red-600 font-black   text-lg     hover:bg-red-800 hover:text-white cursor-pointer  rounded-sm p-1  ' ><a href="">Sign In</a></div>
+                  <div id='animatetwo' className='font-light  bg-black px-2  rounded-sm border text-sm border-yellow-100 md:pl-3 text-white py-1'><a href="">Home</a></div>
+                 <div className='pr-20 pt-0.95 '> <div id='animatethree' className=' bg-black text-white border md:mr-50 border-blue-500 text-sm px-2 py-1.5 rounded-sm'><a href="">About</a></div></div>
+                  <div id='animatefour' className='text-red-600 font-bold   text-2xl    hover:bg-red-800 hover:text-white cursor-pointer  rounded-sm p-1  ' ><a href="">Sign In</a></div>
 
          </div>
 
