@@ -195,8 +195,8 @@ animation-fill-mode: forwards;
 #ani1{
 animation-name: opac;
 animation-timing-function: ease-in;
-animation-delay: 2.6s;
-animation-duration: 1000ms;
+animation-delay: 3s;
+animation-duration: 1.2s;
 animation-fill-mode: forwards;
 opacity: 0;
 }
@@ -208,11 +208,20 @@ opacity: 0;
     color: aqua;
     animation-name: text;
     animation-timing-function: ease-in;
-    animation-duration: 600ms;
+    animation-duration: 100ms;
     animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+    animation-name: visible;
+    animation-timing-function: ease-in;
+    animation-duration: 400ms;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
 }
 @keyframes text{
     0%{color: aqua;}
     100%{color:white}
+}
+@keyframes visible{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
 }
