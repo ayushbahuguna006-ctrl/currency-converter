@@ -77,7 +77,7 @@ function App() {
 
 
          </div>
-<section id='ani20' className="max-w-4xl mx-auto mt-16 px-6 text-white  ">
+<section id='ani20' className="max-w-4xl mx-auto  px-6  text-white  ">
 {/* Heading */}
 <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-center text-white ">
 About This Project 
