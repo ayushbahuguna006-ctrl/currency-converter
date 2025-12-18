@@ -43,7 +43,7 @@ function App() {
          <div className='bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] h-8 border-white border-y-1  w-full flex justify-between md:flex md:justify-around items-center md:font-bold py-6 px-4'>
                   <div id='animatetwo' className='font-black   px-2  rounded-sm  text-base md:pl-3 text-gray-500 py-0.5 border-black border-2 hover:bg-black hover:text-white'><a href="">Home</a></div>
                  <div className=' pt-0.95 md:pl-10  '> <div id='animatethree' className=' hover:bg-black hover:text-white text-gray-500   border-black border-2 text-base px-2 py-0.5 rounded-sm font-black'><a href="">About</a></div></div>
-                  <div id='animatefour' className='text-white font-bold   text-base    hover:bg-red-800 hover:text-white hover:border-black hover:border-3 cursor-pointer font-mono  rounded-sm p-1 bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] border-2 border-white ' ><a href="">Sign In</a></div>
+                  <div id='animatefour' className='text-white font-bold   text-base    hover:bg-red-800 hover:text-white hover:border-black hover:border-3 cursor-pointer font-mono  rounded-sm p-0.5 bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] border-2 border-white ' ><a href="">Sign In</a></div>
 
          </div>
 
