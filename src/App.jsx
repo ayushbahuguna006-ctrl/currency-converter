@@ -42,7 +42,7 @@ function App() {
 
          <div className='bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] h-8 border-white border-y-1  w-full flex justify-between md:flex md:justify-around items-center md:font-bold py-6 px-4'>
                   <div id='animatetwo' className='font-black   px-2  rounded-sm  text-base md:pl-3 text-gray-500 py-1 border-black border-2'><a href="">Home</a></div>
-                 <div className='pr-20 pt-0.95 '> <div id='animatethree' className=' text-gray-500 md:mr-50  border-black border-2 text-base px-2 py-1 rounded-sm font-black'><a href="">About</a></div></div>
+                 <div className='pr-20 pt-0.95 md:pl-10 '> <div id='animatethree' className=' text-gray-500   border-black border-2 text-base px-2 py-1 rounded-sm font-black'><a href="">About</a></div></div>
                   <div id='animatefour' className='text-red-600 font-bold   text-base    hover:bg-red-800 hover:text-white cursor-pointer  rounded-sm p-1 bg-black border border-white ' ><a href="">Sign In</a></div>
 
          </div>
@@ -87,8 +87,8 @@ function App() {
 
 
         <div className='flex justify-center min-h-[450px] pt-6'>
-            <div id='ani1' className=' bg-transparent min-h-30   rounded-xl w-[90%] sm:w-full md:w-[70%] lg:w-[30%] border-cyan-200 border'>
-                <div className='text-center p-6 '><h1 className='text-purple-100 font-black text-2xl '>CURRENCY CONVERTER</h1></div>
+            <div id='ani1' className=' bg-transparent min-h-30   rounded-xl w-[90%] sm:w-full md:w-[70%] lg:w-[25%] border-cyan-100 border'>
+                <div className='text-center p-6 '><h1 className='text-purple-100 font-black text-xl '>CURRENCY CONVERTER</h1></div>
                 <div className='flex justify-center'> <hr className='w-[90%]'/></div><br />
                 <div className='pt-3 pb-6 pl-2 text-center bg-transparent text-lg text-black font-bold rounded-2xl 'id='animate'><p className='text-gray-200 text-lg'>AMOUNT    ?</p>  <label className='bg-white'><input type='number' placeholder='   Enter Amount Here ' min={1} className='border-4 font-mono  rounded-md h-8 w-60 '/></label></div>
                 <div className='flex justify-center p-4'>
