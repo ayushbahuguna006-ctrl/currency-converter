@@ -41,13 +41,13 @@ function App() {
             </div>
 
          <div className='bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] h-8 border-white border-y-1  w-full flex justify-between md:flex md:justify-around items-center md:font-bold py-6 px-4'>
-                  <div id='animatetwo' className='font-light  bg-black px-2  rounded-sm border text-sm border-yellow-100 md:pl-3 text-white py-1'><a href="">Home</a></div>
-                 <div className='pr-20 pt-0.95 '> <div id='animatethree' className=' bg-black text-white border md:mr-50 border-blue-500 text-sm px-2 py-1.5 rounded-sm'><a href="">About</a></div></div>
-                  <div id='animatefour' className='text-red-600 font-bold   text-2xl    hover:bg-red-800 hover:text-white cursor-pointer  rounded-sm p-1  ' ><a href="">Sign In</a></div>
+                  <div id='animatetwo' className='font-black   px-2  rounded-sm  text-base md:pl-3 text-gray-500 py-1 border-black border-2'><a href="">Home</a></div>
+                 <div className='pr-20 pt-0.95 '> <div id='animatethree' className=' text-gray-500 md:mr-50  border-black border-2 text-base px-2 py-1 rounded-sm font-black'><a href="">About</a></div></div>
+                  <div id='animatefour' className='text-red-600 font-bold   text-base    hover:bg-red-800 hover:text-white cursor-pointer  rounded-sm p-1 bg-black border border-white ' ><a href="">Sign In</a></div>
 
          </div>
 
-         <div id='ani2' className='flex justify-center  py-10 text-sm font-extralight'>
+         <div id='ani2' className='flex justify-center  py-10 text-sm font-bold'>
              <div className='flex px-4'> <div id='animate1'><h1>W</h1></div>
                    <div id='animate2'><h1>H</h1></div>
                    <div id='animate3'><h1>E</h1></div>
@@ -92,8 +92,8 @@ function App() {
                 <div className='flex justify-center'> <hr className='w-[90%]'/></div><br />
                 <div className='pt-6 pb-6 pr-7 text-center bg-green-50 font-semibold border border-green-50 rounded-2xl 'id='animate'>AMOUNT:  <label className='bg-white'><input type='number' placeholder='  Enter Amount Here ' min={1} className='border-3 font-medium border-black rounded-sm'/></label></div>
                 <div className='flex justify-center p-4'>
-                              <div className='pr-20'><label className='flex bg-green-200 rounded-sm font-light border-black border'>FROM: <div className=' border-black border-2 rounded-sm bg-yellow-100 text-blue-500'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
-                              <div ><label className='flex bg-green-200 rounded-sm border-black border'>TO:   <div className='border-2 border-black  rounded-sm bg-yellow-100 font-light  text-blue-500'><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div className='pr-20'><label className='flex bg-teal-100 rounded-sm font-light border-black border p-1 '>FROM <div className=' border-black border-2 rounded-sm bg-teal-50 text-blue-500'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div ><label className='flex bg-teal-100 rounded-sm border-black border p-1'>TO   <div className='border-2 border-black  rounded-sm bg-teal-50 font-light  text-blue-500'><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
                 </div>
                 <div className='text-center pt-10 pl-5 '><button className='bg-black text-white rounded-2xl text-base py-4   font-semibold  px-3 hover:ring hover:ring-offset-2 hover:ring-red-200 hover:text-white hover:from-teal-600 hover:to-blue-200 hover:bg-linear-to-r transition-all duration-300 transform hover:scale-105 shadow-2xl ring ring-offset-1 ring-blue-500 hover:cursor-pointer '>CONVERT</button></div>
 
