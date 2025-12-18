@@ -3,7 +3,6 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  
  
 
   return (
@@ -26,12 +25,12 @@ function App() {
         
                           <div>
                                  <div
-                                 className=" top-5 left-6 z-50 cursor-pointer space-y-1 pl-14 pt-1 md:pl-100 "
+                                 className=" top-5 left-6 z-50 cursor-pointer space-y-1 pr-1.5 pt-1 md:pl-100 "
                                   
                                                                                          >
-                                     <span className="block w-5 h-1 bg-white"></span>
-                                       <span className="block w-5 h-1 bg-white"></span>
-                                        <span className="block w-5 h-1 bg-white"></span>
+                                     <span className="block w-7 h-1 bg-white"></span>
+                                       <span className="block w-7 h-1 bg-white"></span>
+                                        <span className="block w-7 h-1 bg-white"></span>
                                    </div>
 
                           </div>
