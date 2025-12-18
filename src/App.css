@@ -205,7 +205,7 @@ opacity: 0;
     100%{opacity: 1;}
 }
 #ani2{
-    color: aqua;
+    color:rgb(48, 146, 146);
     animation-name: text;
     animation-timing-function: ease-in;
     animation-duration: 100ms;
