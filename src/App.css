@@ -233,6 +233,3 @@ animation-duration: 1.2s;
 animation-fill-mode: forwards;
 opacity: 0;
 }
-html, body {
-  background-color: #000;
-}
