@@ -47,7 +47,7 @@ function App() {
 
          </div>
 
-         <div id='ani2' className='flex justify-center  py-10 text-sm font-bold'>
+         <div id='ani2' className='flex justify-center  py-10 text-sm font-mono'>
              <div className='flex px-4'> <div id='animate1'><h1>W</h1></div>
                    <div id='animate2'><h1>H</h1></div>
                    <div id='animate3'><h1>E</h1></div>
@@ -86,16 +86,16 @@ function App() {
 
 
 
-        <div className='flex justify-center min-h-[400px] pt-6'>
-            <div id='ani1' className=' bg-green-50 min-h-30   rounded-xl w-[90%] sm:w-full md:w-[70%] lg:w-[30%] border-green-200 border-4'>
-                <div className='text-center p-6 '><h1 className='text-stone-700 font-black text-2xl '>CURRENCY CONVERTER</h1></div>
+        <div className='flex justify-center min-h-[450px] pt-6'>
+            <div id='ani1' className=' bg-transparent min-h-30   rounded-xl w-[90%] sm:w-full md:w-[70%] lg:w-[30%] border-cyan-200 border'>
+                <div className='text-center p-6 '><h1 className='text-purple-100 font-black text-2xl '>CURRENCY CONVERTER</h1></div>
                 <div className='flex justify-center'> <hr className='w-[90%]'/></div><br />
-                <div className='pt-6 pb-6 pr-7 text-center bg-green-50 font-semibold border border-green-50 rounded-2xl 'id='animate'>AMOUNT:  <label className='bg-white'><input type='number' placeholder='  Enter Amount Here ' min={1} className='border-3 font-medium border-black rounded-sm'/></label></div>
+                <div className='pt-3 pb-6 pl-2 text-center bg-transparent text-lg text-black font-bold rounded-2xl 'id='animate'><p className='text-gray-200 text-lg'>AMOUNT    ?</p>  <label className='bg-white'><input type='number' placeholder='   Enter Amount Here ' min={1} className='border-4 font-mono  rounded-md h-8 w-60 '/></label></div>
                 <div className='flex justify-center p-4'>
-                              <div className='pr-20'><label className='flex bg-teal-100 rounded-sm font-light border-black border p-1 '>FROM <div className=' border-black border-2 rounded-sm bg-teal-50 text-blue-500'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
-                              <div ><label className='flex bg-teal-100 rounded-sm border-black border p-1'>TO   <div className='border-2 border-black  rounded-sm bg-teal-50 font-light  text-blue-500'><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div className='pr-20'><label className='flex bg-transparent rounded-sm text-base text-white font-semibold border-black border p-1 '>FROM <div className=' border-black border-2 rounded-sm bg-teal-50 text-blue-500'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div ><label className='flex bg-transparent rounded-sm border-black text-white border text-lg p-1 font-bold'>TO   <div className='border-2 border-black  rounded-sm bg-teal-50 font-light  text-blue-500'><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
                 </div>
-                <div className='text-center pt-10 pl-5 '><button className='bg-black text-white rounded-2xl text-base py-4   font-semibold  px-3 hover:ring hover:ring-offset-2 hover:ring-red-200 hover:text-white hover:from-teal-600 hover:to-blue-200 hover:bg-linear-to-r transition-all duration-300 transform hover:scale-105 shadow-2xl ring ring-offset-1 ring-blue-500 hover:cursor-pointer '>CONVERT</button></div>
+                <div className='text-center pt-6 pl-5 '><button className='bg-black text-white rounded-2xl text-base py-4   font-semibold  px-3 hover:ring hover:ring-offset-2 hover:ring-red-200 hover:text-white hover:from-teal-600 hover:to-blue-200 hover:bg-linear-to-r transition-all duration-300 transform hover:scale-105 shadow-2xl ring ring-offset-1 ring-blue-500 hover:cursor-pointer '>CONVERT</button></div>
 
             </div>
 
