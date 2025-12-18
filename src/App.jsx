@@ -48,7 +48,7 @@ function App() {
          </div>
 
 
-         <div id='ani2' className='flex justify-center  py-10 text-lg font-mono'>
+         <div id='ani2' className='flex justify-center  py-10 text-shadow-md font-base'>
              <div className='flex px-4'> <div id='animate1'><h1>W</h1></div>
                    <div id='animate2'><h1>H</h1></div>
                    <div id='animate3'><h1>E</h1></div>
@@ -78,15 +78,15 @@ function App() {
 
          </div>
 <section id='ani20' className="max-w-4xl mx-auto  px-6  text-white  ">
-{/* Heading */}
+
 <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-center text-white ">
 About This Project 
 </h2>
 
 
-{/* Card */}
+
 <div className="bg-transparent border-white border rounded-2xl p-8 shadow-lg space-y-6">
-{/* Why Section */}
+
 <div>
 <h3 className="text-xl font-bold mb-2 ">Why this Currency Converter was built  ?</h3>
 <p className="text-gray-300 leading-relaxed">
@@ -98,7 +98,7 @@ using Tailwind CSS.
 </div>
 
 
-{/* How It Works */}
+
 <div>
 <h3 className=" text-xl font-bold  mb-2">How it works  ?</h3>
 <ul className="list-disc list-inside text-gray-300 space-y-2">
@@ -110,7 +110,7 @@ using Tailwind CSS.
 </div>
 
 
-{/* Tech Stack */}
+
 <div>
 <h3 className="text-xl font-medium mb-2">Technologies used</h3>
 <div className="flex flex-wrap gap-3">
@@ -122,7 +122,7 @@ using Tailwind CSS.
 </div>
 
 
-{/* Learning Outcome */}
+
 <div>
 <h3  className="text-xl font-medium mb-2">What I learned  ?</h3>
 <p className="text-gray-300 leading-relaxed">
