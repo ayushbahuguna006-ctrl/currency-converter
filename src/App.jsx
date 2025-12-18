@@ -41,9 +41,9 @@ function App() {
             </div>
 
          <div className='bg-gradient-to-r from-[#0b1f24] via-[#0f3d3e] to-[#14532d] h-8 border-white border-y-1  w-full flex justify-between md:flex md:justify-around items-center md:font-bold py-6 px-4'>
-                  <div id='animatetwo' className='font-black   px-2  rounded-sm  text-base md:pl-3 text-gray-500 py-1 border-black border-2'><a href="">Home</a></div>
-                 <div className='pr-20 pt-0.95 md:pl-10 '> <div id='animatethree' className=' text-gray-500   border-black border-2 text-base px-2 py-1 rounded-sm font-black'><a href="">About</a></div></div>
-                  <div id='animatefour' className='text-red-600 font-bold   text-base    hover:bg-red-800 hover:text-white cursor-pointer  rounded-sm p-1 bg-black border border-white ' ><a href="">Sign In</a></div>
+                  <div id='animatetwo' className='font-black   px-2  rounded-sm  text-base md:pl-3 text-gray-500 py-0.5 border-black border-2 hover:bg-black hover:text-white'><a href="">Home</a></div>
+                 <div className='pr-20 pt-0.95 md:pl-10  '> <div id='animatethree' className=' hover:bg-black hover:text-white text-gray-500   border-black border-2 text-base px-2 py-0.5 rounded-sm font-black'><a href="">About</a></div></div>
+                  <div id='animatefour' className='text-red-600 font-bold   text-base    hover:bg-red-800 hover:text-white hover:border-black hover:border-3 cursor-pointer font-mono  rounded-sm p-1 bg-black border border-white ' ><a href="">Sign In</a></div>
 
          </div>
 
@@ -86,16 +86,16 @@ function App() {
 
 
 
-        <div className='flex justify-center min-h-[450px] pt-6'>
+        <div className='flex justify-center min-h-[420px] pt-6'>
             <div id='ani1' className=' bg-transparent min-h-30   rounded-xl w-[90%] sm:w-full md:w-[70%] lg:w-[25%] border-cyan-100 border'>
-                <div className='text-center p-6 '><h1 className='text-purple-100 font-black text-xl '>CURRENCY CONVERTER</h1></div>
+                <div className='text-center p-6 '><h1 className='text-purple-100 font-mono text-2xl '>CURRENCY CONVERTER</h1></div>
                 <div className='flex justify-center'> <hr className='w-[90%]'/></div><br />
-                <div className='pt-3 pb-6 pl-2 text-center bg-transparent text-lg text-black font-bold rounded-2xl 'id='animate'><p className='text-gray-200 text-lg mask-radial-from-neutral-800'>AMOUNT    ?</p>  <label className='bg-white'><input type='number' placeholder='   Enter Amount Here ' min={1} className='border-4 font-mono  rounded-md h-8 w-60 '/></label></div>
+                <div className='pt-3 pb-6 pl-2 text-center bg-transparent text-lg text-black font-bold rounded-2xl 'id='animate'><p className='text-gray-200 mb-4 font-mono text-xl'>AMOUNT    ?</p>  <label className='h-6 '><input type='number' placeholder='              Enter Amount Here ' min={1} className='  ring ring-black ring-offset ring-offset-black text-white font-medium text-sm  rounded-md h-7 w-60 '/></label></div>
                 <div className='flex justify-center p-4'>
-                              <div className='pr-20'><label className='flex bg-transparent rounded-sm text-base text-white font-semibold border-black border p-1 '>FROM <div className=' border-black border-2 rounded-sm bg-teal-50 text-blue-500'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
-                              <div ><label className='flex bg-transparent rounded-sm border-black text-white border text-lg p-1 font-bold'>TO   <div className='border-2 border-black  rounded-sm bg-teal-50 font-light  text-blue-500'><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div className='pr-20'><label className='flex  bg-transparent rounded-sm text-base text-white font-light border-black border p-2 '><p className='mr-2'>FROM </p><div className=' border-black border-2 rounded-sm bg-transparent text-green-300'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div ><label className='flex bg-transparent rounded-sm border-black text-white border text-lg p-2 font-bold'><p className='mr-2 font-light'>TO</p>   <div className='border-2 border-black  rounded-sm bg-transparent font-semibold text-base  text-cyan-200 '><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
                 </div>
-                <div className='text-center pt-6 pl-5 '><button className='bg-black text-white rounded-2xl text-base py-4   font-semibold  px-3 hover:ring hover:ring-offset-2 hover:ring-red-200 hover:text-white hover:from-teal-600 hover:to-blue-200 hover:bg-linear-to-r transition-all duration-300 transform hover:scale-105 shadow-2xl ring ring-offset-1 ring-blue-500 hover:cursor-pointer '>CONVERT</button></div>
+                <div className='text-center pt-6 pl-5 '><button className='bg-black text-white rounded-2xl text-lg py-4   font-mono  px-3 hover:ring hover:ring-offset-2 hover:ring-black hover:text-white hover:from-teal-600 hover:to-blue-200 hover:bg-linear-to-r transition-all duration-300 transform hover:scale-100 shadow-2xl ring ring-teal-500 hover:cursor-pointer '>CONVERT</button></div>
 
             </div>
 
