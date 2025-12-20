@@ -1,13 +1,54 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import './App.css'
 
+// https://api.frankfurter.dev/v1/currencies
+// https://api.frankfurter.dev/v1/1999-01-04?base=USD&symbols=EUR
 function App() {
+  const [currencies,setcurrencies]=useState([])
+  const [fromcurrency,setfromcurrency]=useState("USD")
+  const [tocurrency,settocurrency]=useState("INR")
+  const [amount,setamount]=useState("1")
+  const [fvalue,setfvalue]=useState()
+
+  
+ const getcurrency=async ()=>{
+  const res= await fetch("https://api.frankfurter.dev/v1/currencies");
+  const data=await res.json();
+ const tempcurrencies=[]
+  for(let currency in data){
+    tempcurrencies.push(currency)
+  }
+  setcurrencies(tempcurrencies)
+ };
+
+ useEffect(()=>{getcurrency()},[])
+
+
+  const options = [];
+
+  for (let i = 0; i < currencies.length; i++) {
+    options.push(
+      <option key={currencies[i]} value={currencies[i]}>
+        {currencies[i]}
+      </option>
+    );
+  }
+  const convertcurrency=async()=>{
+    const res=await fetch(`https://api.frankfurter.dev/v1/latest?amount=${amount}&base=${fromcurrency}&symbols=${tocurrency}`)
+    const data=await res.json()
+    setfvalue(data.rates[tocurrency])
+  };
+
+
+
  
 
+ 
+ 
   return (
     <>
-      <div className=' min-h-screen    '>
+      <div className=' min-h-screen'>
         
 
            
@@ -136,12 +177,12 @@ toward building production‑ready frontend applications.
             <div id='ani1' className=' bg-transparent min-h-30   rounded-xl w-[90%] sm:w-full md:w-[70%] lg:w-[25%] border-cyan-100 border'>
                 <div className='text-center p-6 '><h1 className='text-purple-100 font-mono text-2xl '>CURRENCY CONVERTER</h1></div>
                 <div className='flex justify-center'> <hr className='w-[90%]'/></div><br />
-                <div className='pt-3 pb-6 pl-2 text-center bg-transparent text-lg text-black font-bold rounded-2xl 'id='animate'><p className='text-gray-200 mb-4 font-mono text-xl'>AMOUNT    </p>  <label className='h-6 '><input type='number' placeholder='              Enter Amount Here ' min={1} className='  ring ring-black ring-offset ring-offset-black text-white font-medium text-sm  rounded-md h-7 w-60 '/></label></div>
+                <div className='pt-3 pb-6 pl-2 text-center bg-transparent text-lg text-black font-bold rounded-2xl 'id='animate'><p className='text-gray-200 mb-4 font-mono text-xl'>AMOUNT    </p>  <label className='h-6 '><input type='number' value={amount} onChange={(e)=>setamount(e.target.value)} placeholder='              Enter Amount Here ' min={1} className='  ring ring-black ring-offset ring-offset-black text-white font-medium text-sm  rounded-md h-7 w-60 '/></label><div><p>Converted Amount:{fvalue}</p></div></div>
                 <div className='flex justify-center p-4'>
-                              <div className='pr-20'><label className='flex  bg-transparent rounded-sm text-base text-white font-light border-black border p-2 '><p className='mr-2'>FROM </p><div className=' border-black border-2 rounded-sm bg-transparent text-black font-semibold'><select><option >USD</option><option >INR</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
-                              <div ><label className='flex bg-transparent rounded-sm border-black text-white border text-lg p-2 font-bold'><p className='mr-2 font-light'>TO</p>   <div className='border-2 border-black  rounded-sm bg-transparent font-semibold text-base  text-black '><select><option >INR</option><option >USD</option><option >EUR</option><option >GBP</option><option >AUD</option></select></div></label></div>
+                              <div className='pr-20'><label className='flex  bg-transparent rounded-sm text-base text-white font-light border-black border p-2 '><p className='mr-2'>FROM </p><div className=' border-black border-2 rounded-sm bg-transparent text-black font-semibold'><select value={fromcurrency} onChange={(e)=>setfromcurrency(e.target.value)}>{options}</select></div></label></div>
+                              <div ><label className='flex bg-transparent rounded-sm border-black text-white border text-lg p-2 font-bold'><p className='mr-2 font-light'>TO</p>   <div className='border-2 border-black  rounded-sm bg-transparent font-semibold text-base  text-black '><select value={tocurrency} onChange={(e)=>settocurrency(e.target.value)}>{options}</select></div></label></div>
                 </div>
-                <div className='text-center pt-6 pl-5 '><button className='bg-white text-black rounded-2xl text-base py-4   font-mono  px-3 hover:ring hover:ring-offset-2 hover:ring-black hover:text-white hover:from-teal-600 hover:to-blue-200 hover:bg-linear-to-r transition-all duration-300 transform hover:scale-100 shadow-2xl ring ring-teal-500 hover:cursor-pointer '>CONVERT</button></div>
+                <div className='text-center pt-6 pl-5 '><button  className='bg-white text-black rounded-2xl text-base py-4   font-mono  px-3 hover:ring hover:ring-offset-2 hover:ring-black hover:text-white hover:from-teal-600 hover:to-blue-200 hover:bg-linear-to-r transition-all duration-300 transform hover:scale-100 shadow-2xl ring ring-teal-500 hover:cursor-pointer ' onClick={convertcurrency}>CONVERT</button></div>
 
             </div>
 
@@ -161,3 +202,5 @@ toward building production‑ready frontend applications.
 }
 
 export default App
+
+
